@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
 }
 
 section{
@@ -16,10 +17,10 @@ section{
     background:url('image/bglogin.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    animation: animateBg 30s linear infinite;
+    animation: animateBg 20S linear infinite;
 }
 
-@keyframes animateBg {
+@keyframes animate {
     100%{
         filter:hue-rotate(360deg)
     }
