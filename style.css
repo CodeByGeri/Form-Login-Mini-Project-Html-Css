@@ -17,7 +17,7 @@ section{
     width: 100%;
     background:url('image/bglogin.jpg') no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: fixed;
     animation: animateBg 20S linear infinite;
     
 }
