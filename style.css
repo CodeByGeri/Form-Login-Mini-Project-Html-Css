@@ -5,8 +5,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
     font-family: "Poppins", sans-serif;
+}
+
+body{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    position: relative
 }
 
 
@@ -18,7 +24,7 @@ section{
     width: 100%;
     background:url('image/bglogin.jpg') no-repeat;
     background-size: cover;
-    background-position: cover;
+    background-position: center;
     animation: animateBg 20S linear infinite;
     
 }
