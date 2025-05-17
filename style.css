@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
     font-family: "Poppins", sans-serif;
 }
 
@@ -15,7 +16,7 @@ section{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background:red;
+    background:url('image/bglogin.jpg') no-repeat;
     background-size: cover;
     background-position: cover;
     animation: animateBg 20S linear infinite;
