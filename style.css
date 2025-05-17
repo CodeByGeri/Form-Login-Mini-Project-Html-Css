@@ -17,11 +17,11 @@ section{
     background:url('image/bglogin.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    animation: animateBg 20S linear infinite;
+    animation: animateBg 25s linear infinite;
     
 }
 
-@keyframes animate {
+@keyframes animateBg {
     100%{
         filter:hue-rotate(360deg)
     }
